@@ -1,20 +1,24 @@
 /*footer*/
-footer {
+.footer {
   background-color: rgb(0, 141, 138);
-  height: 70px;
+  /* height: 120px; */
   width: 100%;
   position: fixed;
   bottom: 0px;
   text-align: center;
   color: white;
 }
+.footer-new {
+  background-color: rgb(0, 141, 138);
+  color: white;
+}
 
 /*footer container*/
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
+  padding: 5px;
+  font-size: 20px;
+  width: 35px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -32,14 +36,26 @@ footer {
   background: #3b5998;
   color: white;
 }
+
+.fa-facebook:hover {
+  background-color: purple;
+}
 /*Instagram*/
 .fa-instagram {
   background: #55acee;
   color: white;
 }
 
+.fa-instagram:hover {
+  background-color: red;
+}
+
 /* Twitter */
 .fa-twitter {
-  background: #55acee;
+  background: #5ee6eb;
   color: white;
+}
+
+.fa-twitter:hover {
+  background-color: navy;
 }

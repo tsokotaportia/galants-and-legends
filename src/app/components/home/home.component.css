@@ -1,8 +1,41 @@
-/*section*/
-/* section {
-  background-image: url("assets/images/image1.jpg");
+.image {
+  /* background-image: url("../assets/images/image1.jpg"); */
+  /* height: 100%; */
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
-  position: relative;
-} */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+
+.text {
+  color: #eeeeee;
+  font-weight: bold;
+  border: 3px solid #cccccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.mt-5 {
+  font-size: 1.9em;
+  line-height: 1.3em;
+  color: #488fb1;
+}
+
+a {
+  font-size: 1.4em;
+  color: #5ee6e5;
+}
+
+h1 {
+  font-size: 4em;
+  color: #533e85;
+}

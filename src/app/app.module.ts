@@ -10,6 +10,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { NavbarComponent } from './navigation/navbar/navbar.component';
 import { FooterComponent } from './navigation/footer/footer.component';
 import { ServicesComponent } from './components/services/services.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ServicesComponent } from './components/services/services.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
