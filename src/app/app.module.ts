@@ -11,6 +11,9 @@ import { NavbarComponent } from './navigation/navbar/navbar.component';
 import { FooterComponent } from './navigation/footer/footer.component';
 import { ServicesComponent } from './components/services/services.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProjectupdateComponent } from './projectupdate/projectupdate.component';
+import { ServiceupdateComponent } from './serviceupdate/serviceupdate.component';
+import { UsersupdateComponent } from './usersupdate/usersupdate.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     ProjectsComponent,
     NavbarComponent,
     FooterComponent,
-    ServicesComponent
+    ServicesComponent,
+    ProjectupdateComponent,
+    ServiceupdateComponent,
+    UsersupdateComponent
   ],
   imports: [
     BrowserModule,
