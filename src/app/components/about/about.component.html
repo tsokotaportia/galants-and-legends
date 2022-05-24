@@ -1,114 +1,82 @@
-<h1 class="display-4 ms-4 text-center">ABOUT US</h1>
-<hr />
-<div class="row mt-4 ms-4 me-4">
-  <div class="">
-    <div class="col-sm-12">
-      <h2 class="text-center">INTRODUCTION</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorem dolorum eius illo nam necessitatibus
-        quis vel. Amet beatae dolorum est ipsam ipsum iusto maxime quia quo repellendus, rerum! Accusamus aperiam
-        aspernatur consectetur deserunt earum explicabo facilis ipsam ipsum iusto laudantium minima, perferendis,
-        quaerat sint sit tempora totam unde vel voluptatibus. Aspernatur cumque ea ex exercitationem modi nemo,
-        placeat quo. A aliquid beatae consectetur consequuntur</p>
-      <p>Gallants&Legends is an agile specialist construction cost consulting company based in
-        Gaborone, Botswana specialising in the following:
-      </p>
-      <ul>
-        <li>Building |Economics</li>
-        <li>Quantity Surveying</li>
-        <li>Project Mentoring</li>
-      </ul>
+<div class="container">
+  <h1 class="display-4 ms-4 text-center">{{header1}}</h1>
+  <hr />
+  <div class="row mt-4 ms-4 me-4">
+    <div>
+      <div class="col-sm-12">
+        <p>Gallants & Legends is an agile specialist construction cost consulting company based in
+          Gaborone, Botswana.
+        </p>
+        <div class="card" style="width: 18rem;">
+          <div class="card-header">
+            Galants & Legends speacialise in the following:
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Building |Economics</li>
+              <li class="list-group-item">Quantity Surveying</li>
+              <li class="list-group-item">Project Mentoring</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <h2 class="text-center mt-4 mb-4">OUR VISION, PURPOSE AND VALUE</h2>
-    <ul ngbNav #nav="ngbNav" class="nav-tabs">
-      <li [ngbNavItem]="1">
-        <a ngbNavLink>Vision</a>
-        <ng-template ngbNavContent>
-          <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro
-            synth
-            master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
-            keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat
-            salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-        </ng-template>
-      </li>
-      <li [ngbNavItem]="2">
-        <a ngbNavLink>Purpose</a>
-        <ng-template ngbNavContent>
-          <p>Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko
-            farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean
-            shorts
-            ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar
-            helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes
-            anderson
-            8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
-            stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
-        </ng-template>
-      </li>
-      <li [ngbNavItem]="3">
-        <a ngbNavLink>Values</a>
-        <ng-template ngbNavContent>
-          <p>Sed commodo, leo at suscipit dictum, quam est porttitor sapien, eget sodales nibh elit id diam. Nulla
-            facilisi.
-            Donec egestas ligula vitae odio interdum aliquet. Duis lectus turpis, luctus eget tincidunt eu, congue et
-            odio.
-            Duis pharetra et nisl at faucibus. Quisque luctus pulvinar arcu, et molestie lectus ultrices et. Sed diam
-            urna,
-            egestas ut ipsum vel, volutpat volutpat neque. Praesent fringilla tortor arcu. Vivamus faucibus nisl enim,
-            nec
-            tristique ipsum euismod facilisis. Morbi ut bibendum est, eu tincidunt odio. Orci varius natoque penatibus
-            et
-            magnis dis parturient montes, nascetur ridiculus mus. Mauris aliquet odio ac lorem aliquet ultricies in eget
-            neque. Phasellus nec tortor vel tellus pulvinar feugiat.</p>
-        </ng-template>
-      </li>
-    </ul>
-    <div [ngbNavOutlet]="nav" class="mt-2"></div>
-    <h2 class="text-center mt-4">PRINCIPAL DIRECTOR</h2>
-    <div class="card mb-3 mt-4">
-      <img src="assets/images/director.jpg" alt="" srcset="">
-      <div class="card-body">
-        <h3>About</h3>
+  </div>
+  <div class="row mt-4 mb-4">
+    <h2 class="text-center">OUR TEAM</h2>
+    <div class="col-md-4 ">
+      <div class="card shadow" style="width: 25rem;">
+        <img src="assets/images/director.jpg" class="card-img-top" alt="..." style="height: 260px;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Muchengeti G Mberi is the Managing director of Gallants&Legends (Pty)Ltd and
-            commands Industrial exposure of 18years. He attained a Masters in Quantity Surveying and has been
-            exposed to project of various nature for various nature just mentioned a few.</li>
-          <li class="list-group-item">He was the Project Qs for the development of new Molepolole Institute of Health
-            Sciences
-            valued at BWP255.</li>
-          <li class="list-group-item">He was the Project Qs of the development of the WUC -Good-hope water reticulation
-            phase
-            II valued at BWP132m.</li>
-          <li class="list-group-item">He also was the project Qs for Gumare Internal roads & bus rank valued at BWP 89m.
-          </li>
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
         </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
       </div>
-      <div class="row g-4">
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow" style="width: 25rem;">
+        <img src="assets/images/quantity surveyor1.jpg" class="card-img-top" alt="..." style="height: 260px;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow" style="width:25rem;">
+        <img src="assets/images/technician.jpg" class="card-img-top" alt="..." style="height: 260px;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div class="row">
-  <h2 class="text-center"> OUR QUANTITY SURVEYORS</h2>
-  <div class="col-md-6 mt-4 mb-4 d-flex justify-content-center">
-    <div class="card" style="width: 25rem;">
-      <img src="assets/images/image7.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Name:Thato Mokoena</p>
-        <p class="card-text">Title:Quantity Surveyor</p>
-        <p class="card-text">Education:Bsc Quantity Surveying</p>
-        <p class="card-text">Experience:5 Years</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-6 mt-4 mb-4 d-flex justify-content-center">
-    <div class="card" style="width: 25rem;">
-      <img src="assets/images/technician.jpg" class="card-img-top" alt="...">
-      <div class="card-body text-center">
-        <p class="card-text">Bongani Ndlovu</p>
-        <p class="card-text">Quantity Surveyor</p>
-        <p class="card-text">Bsc Quantity Surveying</p>
-        <p class="card-text text-muted">5 Years</p>
-
-      </div>
-    </div>
-  </div>
-</div>
